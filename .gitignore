@@ -1,0 +1,14 @@
+# bruto da coleta (HTML/RDS dos tribunais): regenerado pelos scripts de coleta
+dados-raw/
+dados-raw-trafico/
+
+# intermediarios: so as tabelas finais de censo sao versionadas
+dados-saida/*
+!dados-saida/amostragem/
+
+# R / RStudio / macOS
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
